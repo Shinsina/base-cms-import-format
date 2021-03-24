@@ -1,0 +1,92 @@
+[
+  {
+    "host" : "www.exampledomain.com",
+    "name" : "Example Site",
+    "shortName" : "ES",
+    "description" : "The Premier Example Resource",
+    "sections" : [
+      {
+        "name": "Home",
+        "alias": "home",
+        "redirects": [],
+        "mappings": [],
+        "children": []
+      },
+      {
+        "name": "Contact Us",
+        "alias": "contact-us",
+        "redirects": [],
+        "mappings": [],
+        "children": []
+      },
+      {
+        "name": "News",
+        "alias": "news",
+        "redirects": [
+          "category/news"
+        ],
+        "mappings": [
+          "taxonomy.categories*11"
+        ],
+        "children": []
+      },
+      {
+        "name": "Fruits",
+        "alias": "fruits",
+        "redirects": [
+          "category/fruits"
+        ],
+        "mappings": [
+          "taxonomy.categories*5403"
+        ],
+        "children": []
+      },
+      {
+        "name": "Vegetables",
+        "alias": "vegetables",
+        "redirects": [
+          "category/vegetables"
+        ],
+        "mappings": [
+          "taxonomy.categories*5396",
+          "taxonomy.tags*53"
+        ],
+        "children": [
+          {
+            "name": "Potatoes",
+            "alias": "vegetables/potatoes",
+            "redirects": [
+              "category/vegetables/potatoes"
+            ],
+            "mappings": [
+              "taxonomy.categories*5393"
+            ],
+            "children": []
+          },
+          {
+            "name": "Carrots",
+            "alias": "vegetables/carrots",
+            "redirects": [
+              "category/vegetables/carrots"
+            ],
+            "mappings": [
+              "taxonomy.categories*5382"
+            ],
+            "children": []
+          },
+          {
+            "name": "Onions",
+            "alias": "vegetables/onions",
+            "redirects": [
+              "category/vegetables/onions"
+            ],
+            "mappings": [
+              "taxonomy.categories*5391"
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+]

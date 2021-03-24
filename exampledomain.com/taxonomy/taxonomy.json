@@ -1,0 +1,60 @@
+[
+  {
+    "id" : 62,
+    "type" : "Tag",
+    "name" : "safety",
+    "status" : 1,
+    "sequence" : 0,
+    "mutations" : {
+      "Website" : {
+        "urlName" : "safety",
+        "urlPath" : "/safety"
+      }
+    },
+    "_import" : {
+      "entities" : [
+        "wordpress.exampledomain.tags*61"
+      ],
+      "tagKey" : "safety",
+      "names" : [
+        "safety",
+        "Safety"
+      ],
+      "redirects" : [
+        {
+          "siteHost" : "www.exampledomain.com",
+          "value" : "/tag/safety"
+        }
+      ]
+    }
+  },
+  {
+    "id" : 62,
+    "type" : "Tag",
+    "name" : "health",
+    "status" : 1,
+    "sequence" : 0,
+    "mutations" : {
+      "Website" : {
+        "urlName" : "health",
+        "urlPath" : "/health"
+      }
+    },
+    "_import" : {
+      "tagKey" : "health",
+      "entities" : [
+        "wordpress.exampledomain.tags*62"
+      ],
+      "names" : [
+        "health",
+        "Health"
+      ],
+      "redirects" : [
+        {
+          "siteHost" : "www.exampledomain.com",
+          "value" : "/tag/health"
+        }
+      ]
+    }
+  }
+]

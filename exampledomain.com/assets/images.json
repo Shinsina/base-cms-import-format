@@ -1,0 +1,20 @@
+[
+  {
+    "id" : 101,
+    "name" : "CASE 580 EV_576776",
+    "created" : "2021-01-15T13:51:28.592Z",
+    "updated" : "2021-01-15T13:51:28.592Z",
+    "url": "https://www.exampledomain.com/path/to/CASE_580_EV_576776.60019d8f926d9.jpeg",
+    "isLogo" : false,
+    "primaryImageDisplay" : "center",
+    "notes": "",
+    "caption" : "This is an example caption.",
+    "credit" : "Getty Images",
+    "displayName" : "Case CE 580 EV electric backhoe"
+  },
+  {
+    "id" : 102,
+    "created" : "2021-01-15T13:51:28.592Z",
+    "url": "https://www.exampledomain.com/files/base/randallreilly/all/image/2021/01/CASE_580_EV_576776.60019d8f926d9.jpeg"
+  }
+]

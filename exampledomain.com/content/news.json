@@ -1,0 +1,76 @@
+[
+  {
+    "id" : 1301,
+    "_import" : {
+      "entity" : "wordpress.exampledomain.posts*1301",
+      "redirects" : [
+        {
+          "siteHost" : "www.exampledomain.com",
+          "value" : "/news/example"
+        }
+      ]
+    },
+    "name" : "Example News Title 1",
+    "type" : "News",
+    "status" : 1,
+    "body" : "<p>This is some example body copy.</p><h3>Headline 3</h3><p>Some more example body copy.</p>",
+    "bodyOriginal" : "<p style=\"color: black;\">This is some example body copy.</p><h3>Headline 3</h3><p style=\"color: black;\">Some more example body copy.</p>",
+    "teaser" : "This is an example teaser",
+    "created" : "2002-08-30T10:30:00.000Z",
+    "updated" : "2021-01-23T17:49:24.000Z",
+    "touched" : "2021-01-23T17:49:24.999Z",
+    "updatedBy" : "jdoe",
+    "createdBy" : "jdoe",
+    "primarySite" : "www.exampledomain.com",
+    "primarySection" : "vegetables/potatoes",
+    "seoTitle" : "Example SEO Article Title",
+    "requiresRegistration" : false,
+    "primaryImage" : "https://www.exampledomain.com/path/to/primary-image.png",
+    "images" : [
+      "https://www.exampledomain.com/path/to/primary-image.png",
+      "https://www.exampledomain.com/path/to/image-1.png",
+      "https://www.exampledomain.com/path/to/image-2.png"
+    ],
+    "customAttributes" : {},
+    "labels" : ["Sponsored"],
+    "authors" : [
+      "wordpress.exampledomain.users*77"
+    ],
+    "taxonomy" : {
+      "tags" : [
+        "wordpress.exampledomain.tags*61"
+      ],
+      "categories" : [
+        "wordpress.exampledomain.categories*5396"
+      ]
+    },
+    "websiteSections" : [
+      {
+        "host" : "www.exampledomain.com",
+        "sections" : [
+          "vegetables",
+          "vegetables/potatoes"
+        ]
+      }
+    ]
+  },
+  {
+    "id" : 1302,
+    "_import" : {
+      "entity" : "wordpress.exampledomain.posts*1302",
+      "redirects" : [
+        {
+          "siteHost" : "www.exampledomain.com",
+          "value" : "/test-2"
+        }
+      ]
+    },
+    "name" : "Example News Title 2",
+    "type" : "News",
+    "status" : 2,
+    "created" : "2002-08-30T10:30:00.000Z",
+    "createdBy" : "jdoe",
+    "primarySite" : "www.exampledomain.com",
+    "primarySection" : "vegetables/potatoes"
+  }
+]

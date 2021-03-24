@@ -1,0 +1,83 @@
+[
+  {
+    "id" : 1212,
+    "name" : "Example Article Title",
+    "type" : "Article",
+    "status" : 1,
+    "shortTitle": "Example Short Title",
+    "magazineDeck": "This is a magazine deck",
+    "body" : "<p>This is some example body copy.</p><h3>Headline 3</h3><p>Some more example body copy.</p>",
+    "bodyOriginal" : "<p style=\"color: black;\">This is some example body copy.</p><h3>Headline 3</h3><p style=\"color: black;\">Some more example body copy.</p>",
+    "teaser" : "This is an example teaser",
+    "created" : "2002-08-30T10:30:00.000Z",
+    "updated" : "2021-01-23T17:49:24.000Z",
+    "touched" : "2021-01-23T17:49:24.999Z",
+    "updatedBy" : "jdoe",
+    "createdBy" : "jdoe",
+    "primarySite" : "www.exampledomain.com",
+    "primarySection" : "vegetables/potatoes",
+    "seoTitle" : "Example SEO Article Title",
+    "seoDescription" : "Example SEO Description",
+    "canonicalURL" : "",
+    "redirects" : [
+      "/slug/for/example-article-title"
+    ],
+    "requiresRegistration" : false,
+    "primaryImage" : "assets.images*101",
+    "assets" : {
+      "images" : [
+        "assets.images*101",
+        "assets.images*102",
+        "assets.images*103"
+      ]
+    },
+    "customAttributes" : {},
+    "labels" : ["Sponsored"],
+    "authors" : [
+      "users*77"
+    ],
+    "contributors" : [],
+    "photographers" : [],
+    "comapany" : [],
+    "relatedContent" : [
+      "content.articles*1213"
+    ],
+    "notes" : "",
+    "taxonomy" : {
+      "tags" : [
+        "taxonomy.tags*62",
+        "taxonomy.tags*63"
+      ],
+      "categories" : [
+        "taxonomy.categories*5396"
+      ],
+      "bins" : []
+    },
+    "websiteSections" : [
+      {
+        "host" : "www.exampledomain.com",
+        "sections" : [
+          "vegetables",
+          "vegetables/potatoes"
+        ]
+      }
+    ],
+    "printIssues" : [
+      {
+        "publication" : "Example Magazine",
+        "issueName" : "December 2021",
+        "issueSection" : "Default"
+      }
+    ]
+  },
+  {
+    "id" : 1202,
+    "name" : "Example Article Title 2",
+    "type" : "News",
+    "status" : 2,
+    "created" : "2002-08-30T10:30:00.000Z",
+    "createdBy" : "jdoe",
+    "primarySite" : "www.exampledomain.com",
+    "primarySection" : "vegetables/potatoes"
+  }
+]

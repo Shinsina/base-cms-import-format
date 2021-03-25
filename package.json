@@ -1,0 +1,36 @@
+{
+  "name": "base-cms-import-format",
+  "version": "0.0.1",
+  "description": "XML to JSON Convertor for Base-CMS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shinsina/base-cms-import-format.git"
+  },
+  "author": "Jake Collins",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/node": "^7.13.10",
+    "@babel/plugin-transform-async-to-generator": "^7.13.0",
+    "@babel/preset-env": "^7.13.10",
+    "cheerio": "^1.0.0-rc.5",
+    "xml2js": "^0.4.23"
+  },
+  "bugs": {
+    "url": "https://github.com/Shinsina/base-cms-import-format/issues"
+  },
+  "homepage": "https://github.com/Shinsina/base-cms-import-format#readme"
+}

@@ -10,6 +10,7 @@ let count7 = 0
 let id = 0
 let name = ''
 let bodyOriginal = ''
+let body = ''
 let created = ''
 let updated = ''
 let primarySite = ''
@@ -37,7 +38,7 @@ fs.readFile('./XML-Storage/Allured-Content-1.xml', 'utf8', (err, data) => {
       if (item.name) {
         // console.log(item.name)
         if (item.name === 'field') {
-          //console.log(item.attributes[0].value)
+          // console.log(item.attributes[0].value)
           if (item.attributes[0].value === 'title') {
             // console.log(item.children[0].children[0].data)
             name = String(item.children[0].children[0].data)
@@ -45,6 +46,10 @@ fs.readFile('./XML-Storage/Allured-Content-1.xml', 'utf8', (err, data) => {
           } else if (item.attributes[0].value === 'text') {
             // console.log(item.children[0].children[0].data)
             bodyOriginal = String(item.children[0].children[0].data)
+            const regex = /( |<([^>]+)>)/ig
+            const replaced = bodyOriginal.replace(regex, ' ')
+            body = String('<p>' + replaced + '</p>')
+            // console.log(body)
             count3++
           }
         } else if (item.name === 'createDate') {
@@ -77,6 +82,7 @@ fs.readFile('./XML-Storage/Allured-Content-1.xml', 'utf8', (err, data) => {
       id: id,
       name: name,
       bodyOriginal: bodyOriginal,
+      body: body,
       created: created,
       updated: updated,
       primarySite: primarySite,
